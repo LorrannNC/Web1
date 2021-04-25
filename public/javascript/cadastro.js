@@ -82,7 +82,7 @@ function validarData(datanasc){
         idade--;
     };
 
-    if (idade > 100){
+    if (idade > 110){
         document.getElementById("errodata").innerHTML = "Idade inválida!";
     };
 
